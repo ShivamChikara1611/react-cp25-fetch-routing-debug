@@ -39,7 +39,7 @@ class BlogList extends Component {
       <div className="blogs-list-container">
         {/* FIX16: The testid attribute value should be "loader" */}
         {isLoading ? (
-          <div testid="loader">
+          <div data-testid="loader">
             <Loader type="TailSpin" color="#00bfff" height={50} width={50} />
           </div>
         ) : (
